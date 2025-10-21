@@ -43,7 +43,7 @@ int roll_dice(int num_roll, int die_sides) {
     //Total is the random integer between 0 and number on the die
     for (int i = 0; i < num_roll; i++){
         total += rand() % (die_sides) + 1;
-        printf("Inside roll dice function: %d\n", total);
+        // printf("Inside roll dice function: %d\n", total);
     }
     return total;
 }
